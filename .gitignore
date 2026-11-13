@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 数据（绝对不要提交）
+*.db
+*.sqlite3
+*.json
+!package.json
+!watch_info.example.json
+data/
+backup/
+screenshots/
+
+# 配置（含密钥）
+.env
+config.yaml
+cmd_config.json
+
+# 人设和记忆（私人）
+persona*
+memory*
+*.md.bak
+
+# 系统
+.DS_Store
+Thumbs.db
+*.log
